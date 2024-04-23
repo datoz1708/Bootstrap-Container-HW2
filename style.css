@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111827;
+    color: #D1D5DB;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(font/Inter-Regular.ttf);
+}
+
+.container-fluid {
+    margin-top: 50px;
+}
+
+.feedback-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.feedback-card img {
+    margin-bottom: 15px;
+}
+
+.col-4 {
+    border-radius: 12px;
+    background-color: #1F2937;
+    box-shadow: 0px 25px 25px 0px #00000026;
+    width: 530px;
+    height: 356px;
+    margin: 25px auto;
+}
+
+.row {
+    justify-content: center;
+}
+
+.tag {
+    width: 125px;
+    height: 28px;
+    border-radius: 12px;
+    background-color: #374151;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 3px;
+}
+
+.feedbacks-about-me {
+    font-family: Inter;
+    font-size: 20px;
+    text-align: center;
+    color: #D1D5DB;
+}
+
+.feedback {
+    font-family: Inter;
+    line-height: 24px;
+    color: #D1D5DB;
+}
+
+.name {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F9FAFB;
+}
+
+.founder {
+    font-family: Inter;
+    font-size: 14px;
+    color: #D1D5DB;
+    margin: 0;
+}
+
+.container {
+    margin-top: 80px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.col img {
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-position-y: 40px;    
+    padding-bottom: 40px;
+    margin-bottom: 25px;
+}
+
+.about-me h1 {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #F9FAFB  ;
+}
+
+.about-me p {
+    font-family: Inter;
+    line-height: 24px;
+    color: #D1D5DB;
+}
+
+.about-me a {
+    color: #D1D5DB;
+}
+
+ul {
+    width: 604px;
+    display: flex;
+    gap: 100px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-family: Inter;
+    color: #D1D5DB;
+}
+
+
+
